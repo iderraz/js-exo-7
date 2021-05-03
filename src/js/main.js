@@ -46,19 +46,58 @@
     /* - # Exercice 3 JavaScript -> Array */
 
     /* - ## Créer une variable qui reçois un array avec 3 éléments -> ex: coding 11, coding 12, coding 13*/
-    let coding3 = ["coding11", "coding22", "coding33"]
+    let coding3 = ["coding11", "coding22", "coding33"];
 
     /*- ## Afficher les éléments de l'array*/
     console.log(coding3);
 
     /* - ## Ajouter et afficher votre prenom a l'array*/
-    coding3.push("GG-EZ");
+    coding3.unshift("Deyuu San");
     console.log(coding3);
 
     /* - ## Remplacer et afficher un élément de l'array par autre chose*/
 
-    coding3.splice(1, 0, "what's up dude");
+    coding3.splice(1, 1, "what's up dude");
     console.log(coding3);
+
+
+
+    /* 
+    - # Exercice 4 JavaScript -> Array
+
+    - ## Créer une variable qui reçois un array avec 3 éléments -> ex: coding 11, coding 12, coding 13
+
+
+    - ## Afficher les éléments de l'array
+
+
+    - ## Ajouter et afficher votre prenom a l'array
+
+
+    - ## Remplacer et afficher un élément de l'array par autre chose
+
+
+    - ## Effacer un élément de l'array
+
+
+    - ## Afficher le contenu le d'array
+*/
+
+let coding4 = ["codingrouge", "codingjaune", "codingverte"];
+
+console.log(coding4);
+
+coding4.unshift("wewewe");
+console.log(coding4);
+
+coding4.splice(0,1, "brando");
+console.log(coding4);
+
+coding4.pop();
+console.log(coding4);
+
+
+
 
 
 
